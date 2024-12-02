@@ -1,0 +1,15 @@
+# daily_affirmation.py
+
+import random
+
+def display_affirmation():
+    affirmations = [
+        "You are capable of amazing things.",
+        "Believe in yourself and all that you are.",
+        "Your potential is limitless.",
+        "Today is a new day to achieve greatness."
+    ]
+    print(random.choice(affirmations))
+
+# Sample usage
+display_affirmation()
